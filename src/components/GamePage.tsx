@@ -9,6 +9,7 @@ interface GamePageProps {
   onSelectAnswer: (answerIndex: number) => void;
   onNext: () => void;
   onBack: () => void;
+  onFinish: () => void;
   currentQuestionIndex: number;
   totalQuestions: number;
 }
@@ -21,6 +22,7 @@ const GamePage: React.FC<GamePageProps> = ({
   onSelectAnswer,
   onNext,
   onBack,
+  onFinish,
   currentQuestionIndex,
   totalQuestions
 }) => {
@@ -49,10 +51,27 @@ const GamePage: React.FC<GamePageProps> = ({
               } ${
                 showFeedback && selectedAnswer === index && !isCorrect ? 'incorrect' : ''
               }`}
+              style={{
+                backgroundColor: question.optionColors && question.optionColors[index] 
+                  ? question.optionColors[index] 
+                  : undefined,
+                color: question.optionColors && question.optionColors[index]
+                  ? (question.optionColors[index] === '#FFFFFF' || question.optionColors[index] === '#FFFF00' || question.optionColors[index] === '#FFA500') 
+                    ? '#000000' 
+                    : '#FFFFFF'
+                  : undefined
+              }}
               onClick={() => !showFeedback && onSelectAnswer(index)}
               disabled={showFeedback}
             >
-              {option}
+              {question.optionEmojis && question.optionEmojis[index] ? (
+                <div className="option-content">
+                  <div className="option-emoji">{question.optionEmojis[index]}</div>
+                  <div className="option-text">{option}</div>
+                </div>
+              ) : (
+                option
+              )}
             </button>
           ))}
         </div>
@@ -77,6 +96,10 @@ const GamePage: React.FC<GamePageProps> = ({
           </div>
         )}
       </div>
+      
+      <button className="finish-button" onClick={onFinish}>
+        🏁 Finish Quiz
+      </button>
     </div>
   );
 };

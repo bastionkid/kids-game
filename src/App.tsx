@@ -64,6 +64,10 @@ const App: React.FC = () => {
     }
   };
 
+  const handleFinish = () => {
+    setGameStatus(GameStatus.RESULTS);
+  };
+
   const handleBack = () => {
     setGameStatus(GameStatus.LANDING);
     setGameState({
@@ -113,6 +117,7 @@ const App: React.FC = () => {
           onSelectAnswer={handleSelectAnswer}
           onNext={handleNext}
           onBack={handleBack}
+          onFinish={handleFinish}
           currentQuestionIndex={gameState.currentQuestionIndex}
           totalQuestions={gameState.questions.length}
         />

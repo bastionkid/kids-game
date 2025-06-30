@@ -2,6 +2,8 @@ export interface Question {
   id: number;
   text: string;
   options: string[];
+  optionEmojis?: string[];
+  optionColors?: string[];
   correctAnswer: number;
   category: GameCategory;
 }

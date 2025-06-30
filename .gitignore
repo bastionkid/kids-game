@@ -1,3 +1,5 @@
 /.firebaserc
 /node_modules/
 /.idea/
+/build/
+/.firebase/hosting.YnVpbGQ.cache
