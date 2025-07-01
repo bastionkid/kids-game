@@ -70,7 +70,7 @@ body {
 }
 
 .game-emoji {
-  font-size: 3rem;
+  font-size: 7.5rem;
   margin-bottom: 15px;
   animation: wiggle 1s ease-in-out infinite;
 }
@@ -167,7 +167,7 @@ body {
 }
 
 .option-emoji {
-  font-size: 2.5rem;
+  font-size: 6.25rem;
   line-height: 1;
 }
 
@@ -227,7 +227,7 @@ body {
 }
 
 .thumbs-up {
-  font-size: 3rem;
+  font-size: 7.5rem;
   margin-bottom: 10px;
   animation: bounce 1s infinite;
 }
@@ -363,7 +363,7 @@ body {
 }
 
 .category-emoji {
-  font-size: 4rem;
+  font-size: 10rem;
   margin-bottom: 15px;
   animation: bounce 2s infinite;
 }
@@ -389,7 +389,7 @@ body {
 }
 
 .performance-emoji {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .percentage {
@@ -511,7 +511,7 @@ body {
 }
 
 .button-emoji {
-  font-size: 1.2rem;
+  font-size: 3rem;
 }
 
 /* Responsive Design */
@@ -529,7 +529,7 @@ body {
   }
   
   .game-emoji {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   
   .game-title {
@@ -580,7 +580,7 @@ body {
   }
 
   .option-emoji {
-    font-size: 2rem;
+    font-size: 6.25rem;
   }
 
   .option-text {
