@@ -19,12 +19,23 @@ const App: React.FC = () => {
     wrongAnswers: 0
   });
 
+  // Fisher-Yates shuffle algorithm to randomize question order
+  const shuffleArray = <T,>(array: T[]): T[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
   const handleSelectGame = (category: GameCategory) => {
     const categoryQuestions = questionsData[category];
+    const shuffledQuestions = shuffleArray(categoryQuestions);
     setGameState({
       currentCategory: category,
       currentQuestionIndex: 0,
-      questions: categoryQuestions,
+      questions: shuffledQuestions,
       selectedAnswer: null,
       showFeedback: false,
       isCorrect: false,
