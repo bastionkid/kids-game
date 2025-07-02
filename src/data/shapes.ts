@@ -178,14 +178,6 @@ export const shapesQuestions: Question[] = [
     category: GameCategory.SHAPES
   },
   {
-    id: 173,
-    text: "Which shape has corners?",
-    options: ["Circle", "Square", "Oval", "Sphere"],
-    optionEmojis: ["⚫", "⬜", "🍳", "⚫"],
-    correctAnswer: 1,
-    category: GameCategory.SHAPES
-  },
-  {
     id: 174,
     text: "What shape is the sun drawn as?",
     options: ["Square", "Circle", "Triangle", "Rectangle"],
@@ -223,14 +215,6 @@ export const shapesQuestions: Question[] = [
     options: ["Circle", "Diamond", "Square", "Triangle"],
     optionEmojis: ["⚫", "🔷", "⬜", "🔺"],
     correctAnswer: 1,
-    category: GameCategory.SHAPES
-  },
-  {
-    id: 179,
-    text: "Which shape has straight lines only?",
-    options: ["Sphere", "Circle", "Oval", "Square"],
-    optionEmojis: ["⚫", "⚫", "🍳", "⬜"],
-    correctAnswer: 3,
     category: GameCategory.SHAPES
   },
   {

@@ -178,14 +178,6 @@ export const vehiclesQuestions: Question[] = [
     category: GameCategory.VEHICLES
   },
   {
-    id: 113,
-    text: "Which vehicle has three wheels?",
-    options: ["Car", "Tricycle", "Bicycle", "Bus"],
-    optionEmojis: ["🚗", "🚲", "🚲", "🚌"],
-    correctAnswer: 1,
-    category: GameCategory.VEHICLES
-  },
-  {
     id: 114,
     text: "What vehicle do astronauts use?",
     options: ["Car", "Rocket", "Boat", "Train"],

@@ -98,27 +98,11 @@ export const fruitsQuestions: Question[] = [
     category: GameCategory.FRUITS
   },
   {
-    id: 73,
-    text: "Which fruit has a big seed inside?",
-    options: ["Berry", "Cherry", "Avocado", "Grape"],
-    optionEmojis: ["🍇", "🍒", "🥑", "🍇"],
-    correctAnswer: 2,
-    category: GameCategory.FRUITS
-  },
-  {
     id: 74,
     text: "What fruit is green and sour?",
     options: ["Peach", "Apple", "Orange", "Lime"],
     optionEmojis: ["🍑", "🍎", "🍊", "🍋"],
     correctAnswer: 3,
-    category: GameCategory.FRUITS
-  },
-  {
-    id: 75,
-    text: "Which fruit is very big and heavy?",
-    options: ["Cherry", "Watermelon", "Grape", "Berry"],
-    optionEmojis: ["🍒", "🍉", "🍇", "🍇"],
-    correctAnswer: 1,
     category: GameCategory.FRUITS
   },
   {
