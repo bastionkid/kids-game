@@ -5,89 +5,89 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 1,
       text: "What comes after 5?",
-      options: ["4", "6", "7", "8"],
-      optionEmojis: ["4️⃣", "6️⃣", "7️⃣", "8️⃣"],
-      correctAnswer: 1,
+      options: ["6", "4", "7", "8"],
+      optionEmojis: ["6️⃣", "4️⃣", "7️⃣", "8️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 2,
       text: "Which number is the biggest?",
-      options: ["3", "9", "1", "5"],
-      optionEmojis: ["3️⃣", "9️⃣", "1️⃣", "5️⃣"],
-      correctAnswer: 1,
+      options: ["5", "1", "3", "9"],
+      optionEmojis: ["5️⃣", "1️⃣", "3️⃣", "9️⃣"],
+      correctAnswer: 3,
       category: GameCategory.NUMBERS
     },
     {
       id: 3,
       text: "How many fingers do you have on one hand?",
-      options: ["3", "4", "5", "6"],
-      optionEmojis: ["👌", "🤚", "✋", "🖐️"],
-      correctAnswer: 2,
+      options: ["6", "5", "3", "4"],
+      optionEmojis: ["6️⃣", "5️⃣", "3️⃣", "4️⃣"],
+      correctAnswer: 1,
       category: GameCategory.NUMBERS
     },
     {
       id: 4,
       text: "What comes before 3?",
-      options: ["1", "2", "4", "5"],
-      optionEmojis: ["1️⃣", "2️⃣", "4️⃣", "5️⃣"],
+      options: ["5", "2", "1", "4"],
+      optionEmojis: ["5️⃣", "2️⃣", "1️⃣", "4️⃣"],
       correctAnswer: 1,
       category: GameCategory.NUMBERS
     },
     {
       id: 5,
       text: "Count the stars: ⭐⭐⭐",
-      options: ["2", "3", "4", "5"],
-      optionEmojis: ["⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
-      correctAnswer: 1,
+      options: ["2", "4", "5", "3"],
+      optionEmojis: ["⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐", "⭐⭐⭐"],
+      correctAnswer: 3,
       category: GameCategory.NUMBERS
     },
     {
       id: 6,
       text: "Which number comes between 7 and 9?",
-      options: ["6", "8", "10", "11"],
-      optionEmojis: ["6️⃣", "8️⃣", "🔟", "1️⃣1️⃣"],
-      correctAnswer: 1,
+      options: ["6", "10", "8", "11"],
+      optionEmojis: ["6️⃣", "🔟", "8️⃣", "1️⃣1️⃣"],
+      correctAnswer: 2,
       category: GameCategory.NUMBERS
     },
     {
       id: 7,
       text: "What is 2 + 2?",
-      options: ["3", "4", "5", "6"],
-      optionEmojis: ["3️⃣", "4️⃣", "5️⃣", "6️⃣"],
-      correctAnswer: 1,
+      options: ["3", "6", "5", "4"],
+      optionEmojis: ["3️⃣", "6️⃣", "5️⃣", "4️⃣"],
+      correctAnswer: 3,
       category: GameCategory.NUMBERS
     },
     {
       id: 8,
       text: "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️",
-      options: ["6", "7", "8", "9"],
-      optionEmojis: ["❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️❤️❤️❤️"],
-      correctAnswer: 1,
+      options: ["9", "6", "7", "8"],
+      optionEmojis: ["❤️❤️❤️❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️❤️", "❤️❤️❤️❤️❤️❤️❤️❤️"],
+      correctAnswer: 2,
       category: GameCategory.NUMBERS
     },
     {
       id: 9,
       text: "Which number is the smallest?",
-      options: ["8", "1", "5", "3"],
-      optionEmojis: ["8️⃣", "1️⃣", "5️⃣", "3️⃣"],
-      correctAnswer: 1,
+      options: ["5", "8", "1", "3"],
+      optionEmojis: ["5️⃣", "8️⃣", "1️⃣", "3️⃣"],
+      correctAnswer: 2,
       category: GameCategory.NUMBERS
     },
     {
       id: 10,
       text: "What is 5 - 2?",
-      options: ["2", "3", "4", "7"],
-      optionEmojis: ["2️⃣", "3️⃣", "4️⃣", "7️⃣"],
-      correctAnswer: 1,
+      options: ["3", "4", "7", "2"],
+      optionEmojis: ["3️⃣", "4️⃣", "7️⃣", "2️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 11,
       text: "How many wheels does a bicycle have?",
-      options: ["1", "2", "3", "4"],
-      optionEmojis: ["🚲1️⃣", "🚲2️⃣", "🚲3️⃣", "🚲4️⃣"],
-      correctAnswer: 1,
+      options: ["1", "3", "2", "4"],
+      optionEmojis: ["🚲1️⃣", "🚲3️⃣", "🚲2️⃣", "🚲4️⃣"],
+      correctAnswer: 2,
       category: GameCategory.NUMBERS
     },
     {
@@ -101,33 +101,33 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 13,
       text: "What comes after 10?",
-      options: ["9", "11", "12", "13"],
-      optionEmojis: ["9️⃣", "1️⃣1️⃣", "1️⃣2️⃣", "1️⃣3️⃣"],
-      correctAnswer: 1,
+      options: ["11", "9", "12", "13"],
+      optionEmojis: ["1️⃣1️⃣", "9️⃣", "1️⃣2️⃣", "1️⃣3️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 14,
       text: "Which number is even?",
-      options: ["3", "4", "5", "7"],
-      optionEmojis: ["3️⃣", "4️⃣", "5️⃣", "7️⃣"],
-      correctAnswer: 1,
+      options: ["4", "5", "7", "3"],
+      optionEmojis: ["4️⃣", "5️⃣", "7️⃣", "3️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 15,
       text: "What is 3 + 1?",
-      options: ["3", "4", "5", "6"],
-      optionEmojis: ["3️⃣", "4️⃣", "5️⃣", "6️⃣"],
-      correctAnswer: 1,
+      options: ["3", "5", "4", "6"],
+      optionEmojis: ["3️⃣", "5️⃣", "4️⃣", "6️⃣"],
+      correctAnswer: 2,
       category: GameCategory.NUMBERS
     },
     {
       id: 16,
       text: "Count the balloons: 🎈🎈🎈🎈🎈🎈",
-      options: ["5", "6", "7", "8"],
-      optionEmojis: ["🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈🎈🎈🎈"],
-      correctAnswer: 1,
+      options: ["7", "5", "8", "6"],
+      optionEmojis: ["🎈🎈🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈🎈🎈🎈", "🎈🎈🎈🎈🎈🎈"],
+      correctAnswer: 3,
       category: GameCategory.NUMBERS
     },
     {
@@ -141,17 +141,17 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 18,
       text: "Which number is odd?",
-      options: ["2", "3", "4", "6"],
-      optionEmojis: ["2️⃣", "3️⃣", "4️⃣", "6️⃣"],
-      correctAnswer: 1,
+      options: ["3", "2", "4", "6"],
+      optionEmojis: ["3️⃣", "2️⃣", "4️⃣", "6️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 19,
       text: "What is 4 + 3?",
-      options: ["6", "7", "8", "9"],
-      optionEmojis: ["6️⃣", "7️⃣", "8️⃣", "9️⃣"],
-      correctAnswer: 1,
+      options: ["7", "8", "9", "6"],
+      optionEmojis: ["7️⃣", "8️⃣", "9️⃣", "6️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
@@ -165,9 +165,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 21,
       text: "What is 10 - 3?",
-      options: ["6", "7", "8", "9"],
-      optionEmojis: ["6️⃣", "7️⃣", "8️⃣", "9️⃣"],
-      correctAnswer: 1,
+      options: ["7", "6", "8", "9"],
+      optionEmojis: ["7️⃣", "6️⃣", "8️⃣", "9️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
@@ -181,32 +181,32 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 23,
       text: "Which number comes between 4 and 6?",
-      options: ["3", "5", "7", "8"],
-      optionEmojis: ["3️⃣", "5️⃣", "7️⃣", "8️⃣"],
-      correctAnswer: 1,
+      options: ["5", "8", "3", "7"],
+      optionEmojis: ["5️⃣", "8️⃣", "3️⃣", "7️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 24,
       text: "What is 6 + 2?",
-      options: ["7", "8", "9", "10"],
-      optionEmojis: ["7️⃣", "8️⃣", "9️⃣", "🔟"],
-      correctAnswer: 1,
+      options: ["8", "7", "10", "9"],
+      optionEmojis: ["8️⃣", "7️⃣", "🔟", "9️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 25,
       text: "Count the apples: 🍎🍎🍎🍎🍎🍎🍎🍎",
-      options: ["7", "8", "9", "10"],
-      optionEmojis: ["🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎"],
-      correctAnswer: 1,
+      options: ["8", "9", "7", "10"],
+      optionEmojis: ["🍎🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎", "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
       id: 26,
       text: "What is 9 - 4?",
-      options: ["4", "5", "6", "7"],
-      optionEmojis: ["4️⃣", "5️⃣", "6️⃣", "7️⃣"],
+      options: ["6", "5", "4", "7"],
+      optionEmojis: ["6️⃣", "5️⃣", "4️⃣", "7️⃣"],
       correctAnswer: 1,
       category: GameCategory.NUMBERS
     },
@@ -221,9 +221,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 28,
       text: "What is 5 + 4?",
-      options: ["8", "9", "10", "11"],
-      optionEmojis: ["8️⃣", "9️⃣", "🔟", "1️⃣1️⃣"],
-      correctAnswer: 1,
+      options: ["9", "8", "11", "10"],
+      optionEmojis: ["9️⃣", "8️⃣", "1️⃣1️⃣", "🔟"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     },
     {
@@ -237,9 +237,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 30,
       text: "What is 8 - 3?",
-      options: ["4", "5", "6", "7"],
-      optionEmojis: ["4️⃣", "5️⃣", "6️⃣", "7️⃣"],
-      correctAnswer: 1,
+      options: ["5", "7", "6", "4"],
+      optionEmojis: ["5️⃣", "7️⃣", "6️⃣", "4️⃣"],
+      correctAnswer: 0,
       category: GameCategory.NUMBERS
     }
   ],
@@ -263,9 +263,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 33,
       text: "Which vegetable is orange?",
-      options: ["Broccoli", "Carrot", "Lettuce", "Potato"],
-      optionEmojis: ["🥦", "🥕", "🥬", "🥔"],
-      correctAnswer: 1,
+      options: ["Broccoli", "Lettuce", "Carrot", "Potato"],
+      optionEmojis: ["🥦", "🥬", "🥕", "🥔"],
+      correctAnswer: 2,
       category: GameCategory.VEGETABLES
     },
     {
@@ -279,8 +279,8 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 35,
       text: "Which vegetable is green and looks like a tree?",
-      options: ["Carrot", "Broccoli", "Potato", "Beet"],
-      optionEmojis: ["🥕", "🥦", "🥔", "🍿"],
+      options: ["Potato", "Broccoli", "Carrot", "Beet"],
+      optionEmojis: ["🥔", "🥦", "🥕", "🍿"],
       correctAnswer: 1,
       category: GameCategory.VEGETABLES
     },
@@ -327,8 +327,8 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 41,
       text: "Which one is a leafy green vegetable?",
-      options: ["Carrot", "Spinach", "Radish", "Beet"],
-      optionEmojis: ["🥕", "🥬", "🌶️", "🍇"],
+      options: ["Carrot", "Spinach", "Beet", "Radish"],
+      optionEmojis: ["🥕", "🥬", "🍇", "🌶️"],
       correctAnswer: 1,
       category: GameCategory.VEGETABLES
     },
@@ -343,9 +343,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 43,
       text: "Which vegetable is red?",
-      options: ["Lettuce", "Tomato", "Cucumber", "Cabbage"],
-      optionEmojis: ["🥬", "🍅", "🥒", "🥬"],
-      correctAnswer: 1,
+      options: ["Lettuce", "Cucumber", "Tomato", "Cabbage"],
+      optionEmojis: ["🥬", "🥒", "🍅", "🥬"],
+      correctAnswer: 2,
       category: GameCategory.VEGETABLES
     },
     {
@@ -359,9 +359,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 45,
       text: "Which vegetable has layers?",
-      options: ["Potato", "Onion", "Carrot", "Radish"],
-      optionEmojis: ["🥔", "🧅", "🥕", "🌶️"],
-      correctAnswer: 1,
+      options: ["Carrot", "Potato", "Onion", "Radish"],
+      optionEmojis: ["🥕", "🥔", "🧅", "🌶️"],
+      correctAnswer: 2,
       category: GameCategory.VEGETABLES
     },
     {
@@ -375,49 +375,49 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 47,
       text: "Which vegetable grows on a vine?",
-      options: ["Potato", "Cucumber", "Carrot", "Beet"],
-      optionEmojis: ["🥔", "🥒", "🥕", "🍇"],
-      correctAnswer: 1,
+      options: ["Potato", "Carrot", "Beet", "Cucumber"],
+      optionEmojis: ["🥔", "🥕", "🍇", "🥒"],
+      correctAnswer: 3,
       category: GameCategory.VEGETABLES
     },
     {
       id: 48,
       text: "What vegetable is crunchy and orange?",
-      options: ["Lettuce", "Carrot", "Spinach", "Kale"],
-      optionEmojis: ["🥬", "🥕", "🥬", "🥬"],
-      correctAnswer: 1,
+      options: ["Lettuce", "Spinach", "Kale", "Carrot"],
+      optionEmojis: ["🥬", "🥬", "🥬", "🥕"],
+      correctAnswer: 3,
       category: GameCategory.VEGETABLES
     },
     {
       id: 49,
       text: "Which vegetable makes good soup?",
-      options: ["Lettuce", "Tomato", "Spinach", "Cabbage"],
-      optionEmojis: ["🥬", "🍅", "🥬", "🥬"],
-      correctAnswer: 1,
+      options: ["Lettuce", "Spinach", "Cabbage", "Tomato"],
+      optionEmojis: ["🥬", "🥬", "🥬", "🍅"],
+      correctAnswer: 3,
       category: GameCategory.VEGETABLES
     },
     {
       id: 50,
       text: "What vegetable is used in salads?",
-      options: ["Potato", "Lettuce", "Onion", "Beet"],
-      optionEmojis: ["🥔", "🥬", "🧅", "🍇"],
-      correctAnswer: 1,
+      options: ["Onion", "Potato", "Beet", "Lettuce"],
+      optionEmojis: ["🧅", "🥔", "🍇", "🥬"],
+      correctAnswer: 3,
       category: GameCategory.VEGETABLES
     },
     {
       id: 51,
       text: "Which vegetable is small and red?",
-      options: ["Cucumber", "Radish", "Lettuce", "Cabbage"],
-      optionEmojis: ["🥒", "🌶️", "🥬", "🥬"],
+      options: ["Lettuce", "Radish", "Cabbage", "Cucumber"],
+      optionEmojis: ["🥬", "🌶️", "🥬", "🥒"],
       correctAnswer: 1,
       category: GameCategory.VEGETABLES
     },
     {
       id: 52,
       text: "What vegetable has seeds inside?",
-      options: ["Carrot", "Tomato", "Onion", "Potato"],
-      optionEmojis: ["🥕", "🍅", "🧅", "🥔"],
-      correctAnswer: 1,
+      options: ["Onion", "Carrot", "Potato", "Tomato"],
+      optionEmojis: ["🧅", "🥕", "🥔", "🍅"],
+      correctAnswer: 3,
       category: GameCategory.VEGETABLES
     },
     {
@@ -479,9 +479,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 60,
       text: "What vegetable is sweet and orange?",
-      options: ["Onion", "Sweet Potato", "Lettuce", "Cabbage"],
-      optionEmojis: ["🧅", "🍠", "🥬", "🥬"],
-      correctAnswer: 1,
+      options: ["Sweet Potato", "Cabbage", "Onion", "Lettuce"],
+      optionEmojis: ["🍠", "🥬", "🧅", "🥬"],
+      correctAnswer: 0,
       category: GameCategory.VEGETABLES
     }
   ],
@@ -505,9 +505,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 63,
       text: "Which fruit is red?",
-      options: ["Orange", "Apple", "Lemon", "Lime"],
-      optionEmojis: ["🍊", "🍎", "🍋", "🟢"],
-      correctAnswer: 1,
+      options: ["Lemon", "Orange", "Lime", "Apple"],
+      optionEmojis: ["🍋", "🍊", "🟢", "🍎"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
@@ -537,16 +537,16 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 67,
       text: "Which fruit is small and purple?",
-      options: ["Orange", "Grape", "Apple", "Pear"],
-      optionEmojis: ["🍊", "🍇", "🍎", "🍐"],
-      correctAnswer: 1,
+      options: ["Pear", "Apple", "Orange", "Grape"],
+      optionEmojis: ["🍐", "🍎", "🍊", "🍇"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
       id: 68,
       text: "What fruit has seeds on the outside?",
-      options: ["Apple", "Strawberry", "Orange", "Peach"],
-      optionEmojis: ["🍎", "🍓", "🍊", "🍑"],
+      options: ["Apple", "Strawberry", "Peach", "Orange"],
+      optionEmojis: ["🍎", "🍓", "🍑", "🍊"],
       correctAnswer: 1,
       category: GameCategory.FRUITS
     },
@@ -561,41 +561,41 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 70,
       text: "What fruit is fuzzy outside?",
-      options: ["Apple", "Peach", "Orange", "Grape"],
-      optionEmojis: ["🍎", "🍑", "🍊", "🍇"],
+      options: ["Grape", "Peach", "Orange", "Apple"],
+      optionEmojis: ["🍇", "🍑", "🍊", "🍎"],
       correctAnswer: 1,
       category: GameCategory.FRUITS
     },
     {
       id: 71,
       text: "Which fruit is sour and yellow?",
-      options: ["Apple", "Lemon", "Orange", "Cherry"],
-      optionEmojis: ["🍎", "🍋", "🍊", "🍒"],
-      correctAnswer: 1,
+      options: ["Lemon", "Apple", "Cherry", "Orange"],
+      optionEmojis: ["🍋", "🍎", "🍒", "🍊"],
+      correctAnswer: 0,
       category: GameCategory.FRUITS
     },
     {
       id: 72,
       text: "What fruit grows in bunches?",
-      options: ["Apple", "Grapes", "Orange", "Peach"],
-      optionEmojis: ["🍎", "🍇", "🍊", "🍑"],
-      correctAnswer: 1,
+      options: ["Apple", "Peach", "Orange", "Grapes"],
+      optionEmojis: ["🍎", "🍑", "🍊", "🍇"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
       id: 73,
       text: "Which fruit has a big seed inside?",
-      options: ["Grape", "Avocado", "Cherry", "Berry"],
-      optionEmojis: ["🍇", "🥑", "🍒", "🍇"],
-      correctAnswer: 1,
+      options: ["Berry", "Cherry", "Avocado", "Grape"],
+      optionEmojis: ["🍇", "🍒", "🥑", "🍇"],
+      correctAnswer: 2,
       category: GameCategory.FRUITS
     },
     {
       id: 74,
       text: "What fruit is green and sour?",
-      options: ["Apple", "Lime", "Orange", "Peach"],
-      optionEmojis: ["🍎", "🍋", "🍊", "🍑"],
-      correctAnswer: 1,
+      options: ["Peach", "Apple", "Orange", "Lime"],
+      optionEmojis: ["🍑", "🍎", "🍊", "🍋"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
@@ -609,9 +609,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 76,
       text: "What fruit is sweet and has a crown?",
-      options: ["Apple", "Pineapple", "Orange", "Pear"],
-      optionEmojis: ["🍎", "🍍", "🍊", "🍐"],
-      correctAnswer: 1,
+      options: ["Pear", "Apple", "Orange", "Pineapple"],
+      optionEmojis: ["🍐", "🍎", "🍊", "🍍"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
@@ -633,17 +633,17 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 79,
       text: "Which fruit can be made into juice easily?",
-      options: ["Coconut", "Orange", "Avocado", "Kiwi"],
-      optionEmojis: ["🥥", "🍊", "🥑", "🥝"],
-      correctAnswer: 1,
+      options: ["Avocado", "Coconut", "Orange", "Kiwi"],
+      optionEmojis: ["🥑", "🥥", "🍊", "🥝"],
+      correctAnswer: 2,
       category: GameCategory.FRUITS
     },
     {
       id: 80,
       text: "What fruit has brown fuzzy skin?",
-      options: ["Apple", "Kiwi", "Orange", "Grape"],
-      optionEmojis: ["🍎", "🥝", "🍊", "🍇"],
-      correctAnswer: 1,
+      options: ["Kiwi", "Apple", "Orange", "Grape"],
+      optionEmojis: ["🥝", "🍎", "🍊", "🍇"],
+      correctAnswer: 0,
       category: GameCategory.FRUITS
     },
     {
@@ -657,8 +657,8 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 82,
       text: "What fruit is tropical and yellow inside?",
-      options: ["Apple", "Mango", "Orange", "Cherry"],
-      optionEmojis: ["🍎", "🥭", "🍊", "🍒"],
+      options: ["Orange", "Mango", "Apple", "Cherry"],
+      optionEmojis: ["🍊", "🥭", "🍎", "🍒"],
       correctAnswer: 1,
       category: GameCategory.FRUITS
     },
@@ -673,9 +673,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 84,
       text: "What fruit is dried to make raisins?",
-      options: ["Apple", "Grapes", "Orange", "Peach"],
-      optionEmojis: ["🍎", "🍇", "🍊", "🍑"],
-      correctAnswer: 1,
+      options: ["Orange", "Apple", "Peach", "Grapes"],
+      optionEmojis: ["🍊", "🍎", "🍑", "🍇"],
+      correctAnswer: 3,
       category: GameCategory.FRUITS
     },
     {
@@ -721,9 +721,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 90,
       text: "What fruit is often green when unripe?",
-      options: ["Orange", "Banana", "Grape", "Cherry"],
-      optionEmojis: ["🍊", "🍌", "🍇", "🍒"],
-      correctAnswer: 1,
+      options: ["Banana", "Grape", "Cherry", "Orange"],
+      optionEmojis: ["🍌", "🍇", "🍒", "🍊"],
+      correctAnswer: 0,
       category: GameCategory.FRUITS
     }
   ],
@@ -731,7 +731,8 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 91,
       text: "Which one flies in the sky?",
-      options: ["🚗", "✈️", "🚢", "🚂"],
+      options: ["Car", "Airplane", "Boat", "Train"],
+      optionEmojis: ["🚗", "✈️", "🚢", "🚂"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
@@ -770,40 +771,40 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 96,
       text: "What vehicle takes you to school?",
-      options: ["Airplane", "School Bus", "Boat", "Helicopter"],
-      optionEmojis: ["✈️", "🚌", "🚢", "🚁"],
+      options: ["Helicopter", "School Bus", "Boat", "Airplane"],
+      optionEmojis: ["🚁", "🚌", "🚢", "✈️"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
     {
       id: 97,
       text: "Which vehicle helps sick people?",
-      options: ["Police Car", "Ambulance", "Fire Truck", "Taxi"],
-      optionEmojis: ["🚓", "🚑", "🚒", "🚕"],
-      correctAnswer: 1,
+      options: ["Police Car", "Taxi", "Fire Truck", "Ambulance"],
+      optionEmojis: ["🚓", "🚕", "🚒", "🚑"],
+      correctAnswer: 3,
       category: GameCategory.VEHICLES
     },
     {
       id: 98,
       text: "What vehicle puts out fires?",
-      options: ["Ambulance", "Fire Truck", "Police Car", "Bus"],
-      optionEmojis: ["🚑", "🚒", "🚓", "🚌"],
+      options: ["Police Car", "Fire Truck", "Ambulance", "Bus"],
+      optionEmojis: ["🚓", "🚒", "🚑", "🚌"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
     {
       id: 99,
       text: "Which vehicle has a ladder?",
-      options: ["Car", "Fire Truck", "Bicycle", "Boat"],
-      optionEmojis: ["🚗", "🚒", "🚲", "🚢"],
-      correctAnswer: 1,
+      options: ["Car", "Bicycle", "Fire Truck", "Boat"],
+      optionEmojis: ["🚗", "🚲", "🚒", "🚢"],
+      correctAnswer: 2,
       category: GameCategory.VEHICLES
     },
     {
       id: 100,
       text: "What vehicle has wings?",
-      options: ["Car", "Airplane", "Train", "Bus"],
-      optionEmojis: ["🚗", "✈️", "🚂", "🚌"],
+      options: ["Bus", "Airplane", "Train", "Car"],
+      optionEmojis: ["🚌", "✈️", "🚂", "🚗"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
@@ -818,56 +819,56 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 102,
       text: "What vehicle carries lots of people?",
-      options: ["Bicycle", "Bus", "Motorcycle", "Scooter"],
-      optionEmojis: ["🚲", "🚌", "🏍️", "🛵"],
+      options: ["Bicycle", "Bus", "Scooter", "Motorcycle"],
+      optionEmojis: ["🚲", "🚌", "🛵", "🏍️"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
     {
       id: 103,
       text: "Which vehicle has a siren?",
-      options: ["Bicycle", "Police Car", "Regular Car", "Skateboard"],
-      optionEmojis: ["🚲", "🚓", "🚗", "🛹"],
+      options: ["Regular Car", "Police Car", "Skateboard", "Bicycle"],
+      optionEmojis: ["🚗", "🚓", "🛹", "🚲"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
     {
       id: 104,
       text: "What vehicle carries heavy things?",
-      options: ["Bicycle", "Truck", "Scooter", "Skateboard"],
-      optionEmojis: ["🚲", "🚚", "🛵", "🛹"],
-      correctAnswer: 1,
+      options: ["Scooter", "Bicycle", "Truck", "Skateboard"],
+      optionEmojis: ["🛵", "🚲", "🚚", "🛹"],
+      correctAnswer: 2,
       category: GameCategory.VEHICLES
     },
     {
       id: 105,
       text: "Which vehicle has pedals?",
-      options: ["Car", "Bicycle", "Train", "Bus"],
-      optionEmojis: ["🚗", "🚲", "🚂", "🚌"],
-      correctAnswer: 1,
+      options: ["Bus", "Car", "Bicycle", "Train"],
+      optionEmojis: ["🚌", "🚗", "🚲", "🚂"],
+      correctAnswer: 2,
       category: GameCategory.VEHICLES
     },
     {
       id: 106,
       text: "What vehicle takes you to the airport?",
-      options: ["Boat", "Taxi", "Train", "Helicopter"],
-      optionEmojis: ["🚢", "🚕", "🚂", "🚁"],
-      correctAnswer: 1,
+      options: ["Taxi", "Helicopter", "Train", "Boat"],
+      optionEmojis: ["🚕", "🚁", "🚂", "🚢"],
+      correctAnswer: 0,
       category: GameCategory.VEHICLES
     },
     {
       id: 107,
       text: "Which vehicle has a horn?",
-      options: ["Skateboard", "Car", "Bicycle", "Scooter"],
-      optionEmojis: ["🛹", "🚗", "🚲", "🛵"],
-      correctAnswer: 1,
+      options: ["Bicycle", "Skateboard", "Scooter", "Car"],
+      optionEmojis: ["🚲", "🛹", "🛵", "🚗"],
+      correctAnswer: 3,
       category: GameCategory.VEHICLES
     },
     {
       id: 108,
       text: "What vehicle goes underwater?",
-      options: ["Car", "Submarine", "Airplane", "Bus"],
-      optionEmojis: ["🚗", "🚪", "✈️", "🚌"],
+      options: ["Airplane", "Submarine", "Bus", "Car"],
+      optionEmojis: ["✈️", "🚪", "🚌", "🚗"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
@@ -922,24 +923,24 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 115,
       text: "Which vehicle collects garbage?",
-      options: ["School Bus", "Garbage Truck", "Fire Truck", "Ambulance"],
-      optionEmojis: ["🚌", "🚚", "🚒", "🚑"],
-      correctAnswer: 1,
+      options: ["School Bus", "Ambulance", "Fire Truck", "Garbage Truck"],
+      optionEmojis: ["🚌", "🚑", "🚒", "🚚"],
+      correctAnswer: 3,
       category: GameCategory.VEHICLES
     },
     {
       id: 116,
       text: "What vehicle has very big wheels?",
-      options: ["Bicycle", "Monster Truck", "Scooter", "Skateboard"],
-      optionEmojis: ["🚲", "🚚", "🛵", "🛹"],
-      correctAnswer: 1,
+      options: ["Monster Truck", "Skateboard", "Scooter", "Bicycle"],
+      optionEmojis: ["🚚", "🛹", "🛵", "🚲"],
+      correctAnswer: 0,
       category: GameCategory.VEHICLES
     },
     {
       id: 117,
       text: "Which vehicle can drive on sand?",
-      options: ["Regular Car", "Dune Buggy", "Train", "Boat"],
-      optionEmojis: ["🚗", "🏎️", "🚂", "🚢"],
+      options: ["Train", "Dune Buggy", "Boat", "Regular Car"],
+      optionEmojis: ["🚂", "🏎️", "🚢", "🚗"],
       correctAnswer: 1,
       category: GameCategory.VEHICLES
     },
@@ -972,10 +973,10 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 121,
       text: "What color is the sun?",
-      options: ["Blue", "Yellow", "Red", "Green"],
-      optionEmojis: ["🔵", "🟡", "🔴", "🟢"],
-      optionColors: ["#0000FF", "#FFFF00", "#FF0000", "#00FF00"],
-      correctAnswer: 1,
+      options: ["Blue", "Green", "Yellow", "Red"],
+      optionEmojis: ["🔵", "🟢", "🟡", "🔴"],
+      optionColors: ["#0000FF", "#00FF00", "#FFFF00", "#FF0000"],
+      correctAnswer: 2,
       category: GameCategory.COLORS
     },
     {
@@ -999,9 +1000,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 124,
       text: "What color is snow?",
-      options: ["Black", "White", "Gray", "Blue"],
-      optionEmojis: ["⚫", "⚪", "🩶", "🔵"],
-      optionColors: ["#000000", "#FFFFFF", "#808080", "#0000FF"],
+      options: ["Blue", "White", "Black", "Gray"],
+      optionEmojis: ["🔵", "⚪", "⚫", "🩶"],
+      optionColors: ["#0000FF", "#FFFFFF", "#000000", "#808080"],
       correctAnswer: 1,
       category: GameCategory.COLORS
     },
@@ -1080,9 +1081,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 133,
       text: "What color is an elephant?",
-      options: ["Blue", "Gray", "Green", "Red"],
-      optionEmojis: ["🔵", "🩶", "🟢", "🔴"],
-      optionColors: ["#0000FF", "#808080", "#00FF00", "#FF0000"],
+      options: ["Red", "Gray", "Green", "Blue"],
+      optionEmojis: ["🔴", "🩶", "🟢", "🔵"],
+      optionColors: ["#FF0000", "#808080", "#00FF00", "#0000FF"],
       correctAnswer: 1,
       category: GameCategory.COLORS
     },
@@ -1107,46 +1108,46 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 136,
       text: "What color is a school bus?",
-      options: ["Red", "Yellow", "Green", "Blue"],
-      optionEmojis: ["🔴", "🟡", "🟢", "🔵"],
-      optionColors: ["#FF0000", "#FFFF00", "#00FF00", "#0000FF"],
-      correctAnswer: 1,
+      options: ["Green", "Blue", "Yellow", "Red"],
+      optionEmojis: ["🟢", "🔵", "🟡", "🔴"],
+      optionColors: ["#00FF00", "#0000FF", "#FFFF00", "#FF0000"],
+      correctAnswer: 2,
       category: GameCategory.COLORS
     },
     {
       id: 137,
       text: "What color is a tiger?",
-      options: ["Blue", "Orange and black", "All green", "All red"],
-      optionEmojis: ["🔵", "🟠⚫", "🟢", "🔴"],
-      optionColors: ["#0000FF", "#FFA500", "#00FF00", "#FF0000"],
+      options: ["All green", "Orange and black", "All red", "Blue"],
+      optionEmojis: ["🟢", "🟠⚫", "🔴", "🔵"],
+      optionColors: ["#00FF00", "#FFA500", "#FF0000", "#0000FF"],
       correctAnswer: 1,
       category: GameCategory.COLORS
     },
     {
       id: 138,
       text: "What color is milk?",
-      options: ["Yellow", "White", "Blue", "Green"],
-      optionEmojis: ["🟡", "⚪", "🔵", "🟢"],
-      optionColors: ["#FFFF00", "#FFFFFF", "#0000FF", "#00FF00"],
-      correctAnswer: 1,
+      options: ["White", "Blue", "Green", "Yellow"],
+      optionEmojis: ["⚪", "🔵", "🟢", "🟡"],
+      optionColors: ["#FFFFFF", "#0000FF", "#00FF00", "#FFFF00"],
+      correctAnswer: 0,
       category: GameCategory.COLORS
     },
     {
       id: 139,
       text: "What color is a frog?",
-      options: ["Red", "Green", "Blue", "Purple"],
-      optionEmojis: ["🔴", "🟢", "🔵", "🟣"],
-      optionColors: ["#FF0000", "#00FF00", "#0000FF", "#800080"],
-      correctAnswer: 1,
+      options: ["Blue", "Purple", "Red", "Green"],
+      optionEmojis: ["🔵", "🟣", "🔴", "🟢"],
+      optionColors: ["#0000FF", "#800080", "#FF0000", "#00FF00"],
+      correctAnswer: 3,
       category: GameCategory.COLORS
     },
     {
       id: 140,
       text: "What color is a fire truck?",
-      options: ["Blue", "Red", "Green", "Yellow"],
-      optionEmojis: ["🔵", "🔴", "🟢", "🟡"],
-      optionColors: ["#0000FF", "#FF0000", "#00FF00", "#FFFF00"],
-      correctAnswer: 1,
+      options: ["Red", "Yellow", "Blue", "Green"],
+      optionEmojis: ["🔴", "🟡", "🔵", "🟢"],
+      optionColors: ["#FF0000", "#FFFF00", "#0000FF", "#00FF00"],
+      correctAnswer: 0,
       category: GameCategory.COLORS
     },
     {
@@ -1179,10 +1180,10 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 144,
       text: "What color are clouds on a sunny day?",
-      options: ["Gray", "White", "Blue", "Yellow"],
-      optionEmojis: ["🩶", "⚪", "🔵", "🟡"],
-      optionColors: ["#808080", "#FFFFFF", "#0000FF", "#FFFF00"],
-      correctAnswer: 1,
+      options: ["Blue", "Gray", "White", "Yellow"],
+      optionEmojis: ["🔵", "🩶", "⚪", "🟡"],
+      optionColors: ["#0000FF", "#808080", "#FFFFFF", "#FFFF00"],
+      correctAnswer: 2,
       category: GameCategory.COLORS
     },
     {
@@ -1208,17 +1209,17 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 151,
       text: "Which shape has 3 sides?",
-      options: ["Square", "Triangle", "Circle", "Rectangle"],
-      optionEmojis: ["⬜", "🔺", "⚫", "🟨"],
-      correctAnswer: 1,
+      options: ["Square", "Rectangle", "Triangle", "Circle"],
+      optionEmojis: ["⬜", "🟨", "🔺", "⚫"],
+      correctAnswer: 2,
       category: GameCategory.SHAPES
     },
     {
       id: 152,
       text: "Which shape is round?",
-      options: ["Triangle", "Circle", "Square", "Rectangle"],
-      optionEmojis: ["🔺", "⚫", "⬜", "🟨"],
-      correctAnswer: 1,
+      options: ["Triangle", "Rectangle", "Square", "Circle"],
+      optionEmojis: ["🔺", "🟨", "⬜", "⚫"],
+      correctAnswer: 3,
       category: GameCategory.SHAPES
     },
     {
@@ -1272,9 +1273,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 159,
       text: "Which shape has 5 sides?",
-      options: ["Triangle", "Pentagon", "Square", "Circle"],
-      optionEmojis: ["🔺", "🚸", "⬜", "⚫"],
-      correctAnswer: 1,
+      options: ["Pentagon", "Triangle", "Square", "Circle"],
+      optionEmojis: ["🚸", "🔺", "⬜", "⚫"],
+      correctAnswer: 0,
       category: GameCategory.SHAPES
     },
     {
@@ -1288,9 +1289,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 161,
       text: "What shape is a book?",
-      options: ["Circle", "Rectangle", "Triangle", "Star"],
-      optionEmojis: ["⚫", "🟨", "🔺", "⭐"],
-      correctAnswer: 1,
+      options: ["Star", "Circle", "Triangle", "Rectangle"],
+      optionEmojis: ["⭐", "⚫", "🔺", "🟨"],
+      correctAnswer: 3,
       category: GameCategory.SHAPES
     },
     {
@@ -1304,17 +1305,17 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 163,
       text: "Which shape has 8 sides?",
-      options: ["Triangle", "Octagon", "Square", "Circle"],
-      optionEmojis: ["🔺", "🛑", "⬜", "⚫"],
-      correctAnswer: 1,
+      options: ["Octagon", "Triangle", "Circle", "Square"],
+      optionEmojis: ["🛑", "🔺", "⚫", "⬜"],
+      correctAnswer: 0,
       category: GameCategory.SHAPES
     },
     {
       id: 164,
       text: "What shape is a stop sign?",
-      options: ["Circle", "Octagon", "Square", "Triangle"],
-      optionEmojis: ["⚫", "🛑", "⬜", "🔺"],
-      correctAnswer: 1,
+      options: ["Square", "Triangle", "Octagon", "Circle"],
+      optionEmojis: ["⬜", "🔺", "🛑", "⚫"],
+      correctAnswer: 2,
       category: GameCategory.SHAPES
     },
     {
@@ -1328,25 +1329,25 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 166,
       text: "What shape has points like a star?",
-      options: ["Circle", "Star", "Square", "Oval"],
-      optionEmojis: ["⚫", "⭐", "⬜", "🍳"],
-      correctAnswer: 1,
+      options: ["Circle", "Square", "Oval", "Star"],
+      optionEmojis: ["⚫", "⬜", "🍳", "⭐"],
+      correctAnswer: 3,
       category: GameCategory.SHAPES
     },
     {
       id: 167,
       text: "Which shape has 4 sides but not all equal?",
-      options: ["Circle", "Rectangle", "Triangle", "Star"],
-      optionEmojis: ["⚫", "🟨", "🔺", "⭐"],
-      correctAnswer: 1,
+      options: ["Rectangle", "Star", "Circle", "Triangle"],
+      optionEmojis: ["🟨", "⭐", "⚫", "🔺"],
+      correctAnswer: 0,
       category: GameCategory.SHAPES
     },
     {
       id: 168,
       text: "What shape is a pizza slice?",
-      options: ["Square", "Triangle", "Circle", "Rectangle"],
-      optionEmojis: ["⬜", "🔺", "⚫", "🟨"],
-      correctAnswer: 1,
+      options: ["Triangle", "Circle", "Square", "Rectangle"],
+      optionEmojis: ["🔺", "⚫", "⬜", "🟨"],
+      correctAnswer: 0,
       category: GameCategory.SHAPES
     },
     {
@@ -1360,17 +1361,17 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 170,
       text: "What shape is an egg?",
-      options: ["Square", "Oval", "Triangle", "Star"],
-      optionEmojis: ["⬜", "🍳", "🔺", "⭐"],
-      correctAnswer: 1,
+      options: ["Square", "Triangle", "Oval", "Star"],
+      optionEmojis: ["⬜", "🔺", "🍳", "⭐"],
+      correctAnswer: 2,
       category: GameCategory.SHAPES
     },
     {
       id: 171,
       text: "Which shape has all angles the same?",
-      options: ["Triangle", "Square", "Rectangle", "Oval"],
-      optionEmojis: ["🔺", "⬜", "🟨", "🍳"],
-      correctAnswer: 1,
+      options: ["Square", "Triangle", "Oval", "Rectangle"],
+      optionEmojis: ["⬜", "🔺", "🍳", "🟨"],
+      correctAnswer: 0,
       category: GameCategory.SHAPES
     },
     {
@@ -1400,16 +1401,16 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 175,
       text: "Which shape has the fewest sides?",
-      options: ["Square", "Triangle", "Pentagon", "Hexagon"],
-      optionEmojis: ["⬜", "🔺", "🚸", "⬣"],
-      correctAnswer: 1,
+      options: ["Square", "Hexagon", "Pentagon", "Triangle"],
+      optionEmojis: ["⬜", "⬣", "🚸", "🔺"],
+      correctAnswer: 3,
       category: GameCategory.SHAPES
     },
     {
       id: 176,
       text: "What shape is a house roof usually?",
-      options: ["Circle", "Triangle", "Square", "Oval"],
-      optionEmojis: ["⚫", "🔺", "⬜", "🍳"],
+      options: ["Circle", "Triangle", "Oval", "Square"],
+      optionEmojis: ["⚫", "🔺", "🍳", "⬜"],
       correctAnswer: 1,
       category: GameCategory.SHAPES
     },
@@ -1432,9 +1433,9 @@ export const questionsData: Record<GameCategory, Question[]> = {
     {
       id: 179,
       text: "Which shape has straight lines only?",
-      options: ["Circle", "Square", "Oval", "Sphere"],
-      optionEmojis: ["⚫", "⬜", "🍳", "⚫"],
-      correctAnswer: 1,
+      options: ["Sphere", "Circle", "Oval", "Square"],
+      optionEmojis: ["⚫", "⚫", "🍳", "⬜"],
+      correctAnswer: 3,
       category: GameCategory.SHAPES
     },
     {
