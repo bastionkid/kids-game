@@ -75,3 +75,6 @@ Edit `src/data/questions.ts` and follow the existing Question interface structur
 
 ### Testing
 Uses React Testing Library and Jest with standard Create React App configuration.
+
+## Design Principles
+- Always ensure that the questions don't have same emoji in different options
