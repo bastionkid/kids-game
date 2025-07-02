@@ -13,7 +13,6 @@ export const vegetablesQuestions: Question[] = [
     text: "What color is a tomato?",
     options: ["Blue", "Red", "Green", "Yellow"],
     optionEmojis: ["🟦", "🔴", "🟢", "🟡"],
-    optionColors: ["#0000FF", "#FF0000", "#00FF00", "#FFFF00"],
     correctAnswer: 1,
     category: GameCategory.VEGETABLES
   },
@@ -182,7 +181,6 @@ export const vegetablesQuestions: Question[] = [
     text: "What color is a bell pepper that's not ripe yet?",
     options: ["Red", "Yellow", "Green", "Orange"],
     optionEmojis: ["🔴", "🟡", "🟢", "🟠"],
-    optionColors: ["#FF0000", "#FFFF00", "#00FF00", "#FFA500"],
     correctAnswer: 2,
     category: GameCategory.VEGETABLES
   },
@@ -247,7 +245,6 @@ export const vegetablesQuestions: Question[] = [
     text: "What color are most radishes?",
     options: ["Blue", "Red", "Purple", "Black"],
     optionEmojis: ["🔵", "🔴", "🟣", "⚫"],
-    optionColors: ["#0000FF", "#FF0000", "#800080", "#000000"],
     correctAnswer: 1,
     category: GameCategory.VEGETABLES
   },

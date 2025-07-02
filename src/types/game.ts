@@ -3,7 +3,6 @@ export interface Question {
   text: string;
   options: string[];
   optionEmojis?: string[];
-  optionColors?: string[];
   correctAnswer: number;
   category: GameCategory;
 }

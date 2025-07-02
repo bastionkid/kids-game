@@ -52,14 +52,7 @@ const GamePage: React.FC<GamePageProps> = ({
                 showFeedback && selectedAnswer === index && !isCorrect ? 'incorrect' : ''
               }`}
               style={{
-                backgroundColor: question.optionColors && question.optionColors[index] 
-                  ? question.optionColors[index] 
-                  : undefined,
-                color: question.optionColors && question.optionColors[index]
-                  ? (question.optionColors[index] === '#FFFFFF' || question.optionColors[index] === '#FFFF00' || question.optionColors[index] === '#FFA500') 
-                    ? '#000000' 
-                    : '#FFFFFF'
-                  : undefined
+                color: undefined
               }}
               onClick={() => !showFeedback && onSelectAnswer(index)}
               disabled={showFeedback}

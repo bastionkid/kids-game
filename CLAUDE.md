@@ -60,7 +60,7 @@ The app uses a centralized GameState interface tracking:
 ### Adding New Questions
 Edit `src/data/questions.ts` and follow the existing Question interface structure. Each question requires:
 - Unique id, text, options array, correctAnswer index
-- Optional optionEmojis and optionColors for visual enhancement
+- Optional optionEmojis for visual enhancement
 - Proper GameCategory assignment
 
 ### Adding New Categories

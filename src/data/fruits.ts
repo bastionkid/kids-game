@@ -13,7 +13,6 @@ export const fruitsQuestions: Question[] = [
     text: "What color is a banana?",
     options: ["Red", "Yellow", "Blue", "Purple"],
     optionEmojis: ["🔴", "🟡", "🟦", "🟣"],
-    optionColors: ["#FF0000", "#FFFF00", "#0000FF", "#800080"],
     correctAnswer: 1,
     category: GameCategory.FRUITS
   },
