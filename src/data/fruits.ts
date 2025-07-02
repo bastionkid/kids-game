@@ -775,5 +775,29 @@ export const fruitsQuestions: Question[] = [
     optionEmojis: ["🍬", "🍎", "🍪", "🎂"],
     correctAnswer: 1,
     category: GameCategory.FRUITS
+  },
+  {
+    id: 241,
+    text: "What fruit is red and grows on bushes in summer?",
+    options: ["Apple", "Blackberry", "Orange", "Banana"],
+    optionEmojis: ["🍎", "🫐", "🍊", "🍌"],
+    correctAnswer: 1,
+    category: GameCategory.FRUITS
+  },
+  {
+    id: 242,
+    text: "Which fruit has a hard brown shell and white meat?",
+    options: ["Apple", "Coconut", "Orange", "Pear"],
+    optionEmojis: ["🍎", "🥥", "🍊", "🍐"],
+    correctAnswer: 1,
+    category: GameCategory.FRUITS
+  },
+  {
+    id: 243,
+    text: "What fruit is yellow and makes lemonade?",
+    options: ["Orange", "Lemon", "Banana", "Apple"],
+    optionEmojis: ["🍊", "🍋", "🍌", "🍎"],
+    correctAnswer: 1,
+    category: GameCategory.FRUITS
   }
 ];

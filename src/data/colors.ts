@@ -792,5 +792,13 @@ export const colorsQuestions: Question[] = [
     optionEmojis: ["🔵", "🟢", "🔴", "🟡"],
     correctAnswer: 2,
     category: GameCategory.COLORS
+  },
+  {
+    id: 385,
+    text: "What color is a sunset?",
+    options: ["Blue", "Orange and red", "Green", "Purple"],
+    optionEmojis: ["🔵", "🟠🔴", "🟢", "🟣"],
+    correctAnswer: 1,
+    category: GameCategory.COLORS
   }
 ];

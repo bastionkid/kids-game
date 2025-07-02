@@ -784,5 +784,21 @@ export const shapesQuestions: Question[] = [
     optionEmojis: ["⬜", "🔺", "🟨", "⚫"],
     correctAnswer: 3,
     category: GameCategory.SHAPES
+  },
+  {
+    id: 451,
+    text: "What shape is a pizza?",
+    options: ["Square", "Triangle", "Circle", "Rectangle"],
+    optionEmojis: ["⬜", "🔺", "⚫", "🟨"],
+    correctAnswer: 2,
+    category: GameCategory.SHAPES
+  },
+  {
+    id: 452,
+    text: "How many sides does a nonagon have?",
+    options: ["8", "9", "10", "11"],
+    optionEmojis: ["8️⃣", "9️⃣", "🔟", "1️⃣1️⃣"],
+    correctAnswer: 1,
+    category: GameCategory.SHAPES
   }
 ];

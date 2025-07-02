@@ -480,4 +480,324 @@ export const vegetablesQuestions: Question[] = [
     correctAnswer: 2,
     category: GameCategory.VEGETABLES
   },
+  {
+    id: 170,
+    text: "What vegetable is green and shaped like a small tree?",
+    options: ["Lettuce", "Broccoli", "Carrot", "Onion"],
+    optionEmojis: ["🥬", "🥦", "🥕", "🧅"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 171,
+    text: "Which vegetable is purple on the outside and white inside?",
+    options: ["Carrot", "Eggplant", "Potato", "Onion"],
+    optionEmojis: ["🥕", "🍆", "🥔", "🧅"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 172,
+    text: "What vegetable is used to make French fries and chips?",
+    options: ["Carrot", "Potato", "Beet", "Turnip"],
+    optionEmojis: ["🥕", "🥔", "🍇", "🍠"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 173,
+    text: "Which vegetable has a strong smell and makes you cry?",
+    options: ["Lettuce", "Onion", "Carrot", "Cucumber"],
+    optionEmojis: ["🥬", "🧅", "🥕", "🥒"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 174,
+    text: "What vegetable is long, orange, and good for your eyes?",
+    options: ["Carrot", "Cucumber", "Celery", "Radish"],
+    optionEmojis: ["🥕", "🥒", "🥬", "🌶️"],
+    correctAnswer: 0,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 175,
+    text: "Which vegetable is green and crunchy in salads?",
+    options: ["Tomato", "Lettuce", "Carrot", "Onion"],
+    optionEmojis: ["🍅", "🥬", "🥕", "🧅"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 176,
+    text: "What vegetable is red and used to make sauce?",
+    options: ["Carrot", "Tomato", "Beet", "Radish"],
+    optionEmojis: ["🥕", "🍅", "🍇", "🌶️"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 177,
+    text: "Which vegetable grows in pods and is green?",
+    options: ["Carrots", "Peas", "Onions", "Potatoes"],
+    optionEmojis: ["🥕", "🫛", "🧅", "🥔"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 178,
+    text: "What vegetable is yellow and grows on tall stalks?",
+    options: ["Carrot", "Corn", "Squash", "Pepper"],
+    optionEmojis: ["🥕", "🌽", "🎃", "🫑"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 179,
+    text: "Which vegetable is white and has many layers?",
+    options: ["Garlic", "Onion", "Potato", "Turnip"],
+    optionEmojis: ["🧄", "🧅", "🥔", "🍠"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 180,
+    text: "What vegetable is green and long like a cucumber?",
+    options: ["Carrot", "Zucchini", "Radish", "Beet"],
+    optionEmojis: ["🥕", "🥒", "🌶️", "🍇"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 181,
+    text: "Which vegetable is orange and can be carved?",
+    options: ["Carrot", "Pumpkin", "Sweet Potato", "Orange Pepper"],
+    optionEmojis: ["🥕", "🎃", "🍠", "🫑"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 182,
+    text: "What vegetable is small, round, and red?",
+    options: ["Cherry Tomato", "Radish", "Beet", "Red Pepper"],
+    optionEmojis: ["🍅", "🌶️", "🍇", "🫑"],
+    correctAnswer: 0,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 183,
+    text: "Which vegetable is green and has small florets?",
+    options: ["Lettuce", "Broccoli", "Spinach", "Cabbage"],
+    optionEmojis: ["🥬", "🥦", "🥬", "🥬"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 184,
+    text: "What vegetable is white and grows underground?",
+    options: ["Carrot", "Potato", "Tomato", "Pepper"],
+    optionEmojis: ["🥕", "🥔", "🍅", "🫑"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 185,
+    text: "Which vegetable is long, green, and crunchy?",
+    options: ["Carrot", "Celery", "Radish", "Beet"],
+    optionEmojis: ["🥕", "🥬", "🌶️", "🍇"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 186,
+    text: "What vegetable comes in many colors: red, yellow, green?",
+    options: ["Onion", "Bell Pepper", "Carrot", "Potato"],
+    optionEmojis: ["🧅", "🫑", "🥕", "🥔"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 187,
+    text: "Which vegetable is used to make pickles?",
+    options: ["Tomato", "Cucumber", "Carrot", "Lettuce"],
+    optionEmojis: ["🍅", "🥒", "🥕", "🥬"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 188,
+    text: "What vegetable is purple and heart-shaped?",
+    options: ["Carrot", "Beet", "Turnip", "Radish"],
+    optionEmojis: ["🥕", "🍇", "🍠", "🌶️"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 189,
+    text: "Which vegetable grows tall and has edible stalks?",
+    options: ["Carrot", "Celery", "Radish", "Beet"],
+    optionEmojis: ["🥕", "🥬", "🌶️", "🍇"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 190,
+    text: "What vegetable is green and round like cabbage?",
+    options: ["Lettuce", "Cabbage", "Spinach", "Kale"],
+    optionEmojis: ["🥬", "🥬", "🥬", "🥬"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 191,
+    text: "Which vegetable has the most water content?",
+    options: ["Potato", "Cucumber", "Carrot", "Onion"],
+    optionEmojis: ["🥔", "🥒", "🥕", "🧅"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 192,
+    text: "What vegetable is orange and sweet?",
+    options: ["Carrot", "Sweet Potato", "Pumpkin", "All of them"],
+    optionEmojis: ["🥕", "🍠", "🎃", "🥕🍠🎃"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 193,
+    text: "Which vegetable is small and grows in the ground?",
+    options: ["Tomato", "Radish", "Pepper", "Cucumber"],
+    optionEmojis: ["🍅", "🌶️", "🫑", "🥒"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 194,
+    text: "What vegetable is long, thin, and green like a bean?",
+    options: ["Carrot", "Green Bean", "Radish", "Beet"],
+    optionEmojis: ["🥕", "🫘", "🌶️", "🍇"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 195,
+    text: "Which vegetable is used in stir-fry and is green?",
+    options: ["Potato", "Broccoli", "Radish", "Turnip"],
+    optionEmojis: ["🥔", "🥦", "🌶️", "🍠"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 196,
+    text: "What vegetable has a papery skin and is white?",
+    options: ["Garlic", "Onion", "Potato", "Turnip"],
+    optionEmojis: ["🧄", "🧅", "🥔", "🍠"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 197,
+    text: "Which vegetable is dark purple and shiny?",
+    options: ["Purple Cabbage", "Eggplant", "Beet", "Purple Carrot"],
+    optionEmojis: ["🥬", "🍆", "🍇", "🥕"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 198,
+    text: "What vegetable has a tough skin and orange flesh?",
+    options: ["Carrot", "Sweet Potato", "Pumpkin", "Squash"],
+    optionEmojis: ["🥕", "🍠", "🎃", "🎃"],
+    correctAnswer: 2,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 199,
+    text: "Which vegetable grows in clusters and is small?",
+    options: ["Cherry Tomatoes", "Peas", "Brussels Sprouts", "All of them"],
+    optionEmojis: ["🍅", "🫛", "🥬", "🍅🫛🥬"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 200,
+    text: "What vegetable is red and grows on vines?",
+    options: ["Radish", "Tomato", "Beet", "Red Pepper"],
+    optionEmojis: ["🌶️", "🍅", "🍇", "🫑"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 201,
+    text: "Which vegetable is good for making soup?",
+    options: ["Carrot", "Onion", "Celery", "All of them"],
+    optionEmojis: ["🥕", "🧅", "🥬", "🥕🧅🥬"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 202,
+    text: "What vegetable comes in baby size?",
+    options: ["Baby Corn", "Baby Carrot", "Baby Spinach", "All of them"],
+    optionEmojis: ["🌽", "👶🥕", "🥬", "🌽🥕🥬"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 203,
+    text: "Which vegetable is purple and tastes earthy?",
+    options: ["Purple Cabbage", "Eggplant", "Beet", "Purple Carrot"],
+    optionEmojis: ["🥬", "🍆", "🍇", "🥕"],
+    correctAnswer: 2,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 204,
+    text: "What vegetable is spicy and red?",
+    options: ["Tomato", "Red Pepper", "Radish", "Beet"],
+    optionEmojis: ["🍅", "🌶️", "🌶️", "🍇"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 205,
+    text: "Which vegetable is green and leafy like spinach?",
+    options: ["Lettuce", "Kale", "Spinach", "All of them"],
+    optionEmojis: ["🥬", "🥬", "🥬", "🥬🥬🥬"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 206,
+    text: "What vegetable is white and smells strong?",
+    options: ["Garlic", "Onion", "Potato", "Turnip"],
+    optionEmojis: ["🧄", "🧅", "🥔", "🍠"],
+    correctAnswer: 0,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 207,
+    text: "Which vegetable can be mashed?",
+    options: ["Carrot", "Potato", "Sweet Potato", "All of them"],
+    optionEmojis: ["🥕", "🥔", "🍠", "🥕🥔🍠"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 208,
+    text: "What vegetable is good for your health and is green?",
+    options: ["Broccoli", "Spinach", "Kale", "All of them"],
+    optionEmojis: ["🥦", "🥬", "🥬", "🥦🥬🥬"],
+    correctAnswer: 3,
+    category: GameCategory.VEGETABLES
+  },
+  {
+    id: 209,
+    text: "Which vegetable grows above ground and is colorful?",
+    options: ["Potato", "Bell Pepper", "Carrot", "Radish"],
+    optionEmojis: ["🥔", "🫑", "🥕", "🌶️"],
+    correctAnswer: 1,
+    category: GameCategory.VEGETABLES
+  }
 ];

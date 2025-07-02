@@ -792,5 +792,13 @@ export const vehiclesQuestions: Question[] = [
     optionEmojis: ["🚲", "🏗️", "🛹", "🛵"],
     correctAnswer: 1,
     category: GameCategory.VEHICLES
+  },
+  {
+    id: 311,
+    text: "Which vehicle has big wheels and can climb over rocks?",
+    options: ["Regular Car", "Monster Truck", "Bicycle", "Scooter"],
+    optionEmojis: ["🚗", "🚚", "🚲", "🛵"],
+    correctAnswer: 1,
+    category: GameCategory.VEHICLES
   }
 ];
