@@ -330,14 +330,6 @@ export const colorsQuestions: Question[] = [
     category: GameCategory.COLORS
   },
   {
-    id: 326,
-    text: "Which color is darker?",
-    options: ["Light blue", "Navy blue", "Sky blue", "Baby blue"],
-    optionEmojis: ["🔵", "🟦", "🔵", "💙"],
-    correctAnswer: 1,
-    category: GameCategory.COLORS
-  },
-  {
     id: 327,
     text: "What color is a carrot?",
     options: ["Purple", "Green", "Orange", "Blue"],

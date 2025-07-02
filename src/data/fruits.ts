@@ -369,14 +369,6 @@ export const fruitsQuestions: Question[] = [
     category: GameCategory.FRUITS
   },
   {
-    id: 189,
-    text: "Which fruit is very sweet and has lots of juice?",
-    options: ["Lemon", "Orange", "Lime", "Salt"],
-    optionEmojis: ["🍋", "🍊", "🍋", "🧂"],
-    correctAnswer: 1,
-    category: GameCategory.FRUITS
-  },
-  {
     id: 190,
     text: "What fruit monkeys love to eat?",
     options: ["Apple", "Banana", "Orange", "Grape"],
