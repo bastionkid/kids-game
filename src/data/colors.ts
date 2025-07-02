@@ -864,5 +864,41 @@ export const colorsQuestions: Question[] = [
     optionColors: ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
     correctAnswer: 2,
     category: GameCategory.COLORS
+  },
+  {
+    id: 381,
+    text: "What color is a panda bear?",
+    options: ["All white", "Black and white", "All brown", "All gray"],
+    optionEmojis: ["⚪", "⚫⚪", "🟤", "🩶"],
+    optionColors: ["#FFFFFF", "#000000", "#8B4513", "#808080"],
+    correctAnswer: 1,
+    category: GameCategory.COLORS
+  },
+  {
+    id: 382,
+    text: "What color is a ripe orange?",
+    options: ["Yellow", "Orange", "Red", "Green"],
+    optionEmojis: ["🟡", "🟠", "🔴", "🟢"],
+    optionColors: ["#FFFF00", "#FFA500", "#FF0000", "#00FF00"],
+    correctAnswer: 1,
+    category: GameCategory.COLORS
+  },
+  {
+    id: 383,
+    text: "What color is wood?",
+    options: ["Blue", "Green", "Brown", "Purple"],
+    optionEmojis: ["🔵", "🟢", "🟤", "🟣"],
+    optionColors: ["#0000FF", "#00FF00", "#8B4513", "#800080"],
+    correctAnswer: 2,
+    category: GameCategory.COLORS
+  },
+  {
+    id: 384,
+    text: "What color is a stop sign at night with lights on it?",
+    options: ["Blue", "Green", "Red", "Yellow"],
+    optionEmojis: ["🔵", "🟢", "🔴", "🟡"],
+    optionColors: ["#0000FF", "#00FF00", "#FF0000", "#FFFF00"],
+    correctAnswer: 2,
+    category: GameCategory.COLORS
   }
 ];
